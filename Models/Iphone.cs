@@ -9,7 +9,7 @@ namespace DesafioPOO.Models
 
         public override void InstalarAplicativo(string nomeApp)
         {
-            Console.WriteLine("Instalando aplicativo conforme lógica do Iphone");
+            Console.WriteLine($"Instalando aplicativo {nomeApp} conforme lógica do Iphone");
         }
     }
 }
